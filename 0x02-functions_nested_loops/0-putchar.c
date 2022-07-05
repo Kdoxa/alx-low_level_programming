@@ -1,9 +1,7 @@
-#include <unistd.h>
 #include "main.h"
 
 /**
- * main - check description
- * Description: It prints _putchar, followed by a new line.
+ * main - prints putchar
  *
  * Return: always 0
  */
