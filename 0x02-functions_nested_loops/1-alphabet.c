@@ -1,15 +1,14 @@
 #include "main.h"
 
 /**
- * print_alphabet - print a-z
- *
- * Return: Alwats void
+ * print_alphabet -> prints the lowercase alphabets
  */
+
 void print_alphabet(void)
 {
-	int a;
+	int j;
 
-	for (a = 97; a <= 122; a++)
+	for (j = 'a'; j <= 'z'; j++)
 	{
 		_putchar(a);
 	}
