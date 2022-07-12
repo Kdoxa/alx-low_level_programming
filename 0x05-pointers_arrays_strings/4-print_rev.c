@@ -4,18 +4,18 @@
  * print_rev -> prints a string reversely
  * @s: string
  */
+
 void print_rev(char *s);
 {
-	int asdf + 0;
+	int i, n;
 
-	while (asdf >= 0)
+	n = 0;
+	while (s[n] != '\0')
+		n++;
+
+	for (i = n - 1; i >= 0; i--)
 	{
-		if (s[asdf] == '\0')
-			break;
-		asdf++;
+		_putchar(s[i]);
 	}
-
-	for (asdf--; asdf >= 0; asdf--)
-		_putchar(s[asddf]);
 	_putchar('\n');
 }
