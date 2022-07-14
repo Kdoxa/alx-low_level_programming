@@ -1,6 +1,13 @@
 #include <stdio.h>
 
-int main(void) -> it prints 
+/**
+ * main - Entry point
+ *
+ * Description: The program prints
+ *
+ * Return: 0
+ */
+int main(void)
 {
 	int n;
 	int a[5];
