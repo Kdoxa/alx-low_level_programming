@@ -1,6 +1,13 @@
-#include "main.h"
 #include <stdio.h>
+#include "main.h"
 
+/**
+ * main -> Entry
+ *
+ * Description: it prints a[2] = 98
+ *
+ * Return: Always 0
+ */
 int main(void)
 {
 	int n;
