@@ -1,10 +1,10 @@
 #include <stdio.h>
 
 /**
- * main -> it is a function tha print its name
- * @argc: argc parameter
- * @argv: an array of a command listed
- * Return: 0 for success
+ * main - prints the number of arguments passed into it
+ * @argc: count
+ * @argv: array
+ * Return: 0
  */
 int main(int argc, char *argv[] __attribute__((unused)))
 {
