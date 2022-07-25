@@ -16,7 +16,6 @@ void ch_free_grid(char **grid, unsigned int height)
 			free(grid[height]);
 		free(grid[height]);
 		free(grid);
-		
 	}
 }
 
