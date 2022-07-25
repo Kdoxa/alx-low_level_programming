@@ -2,7 +2,7 @@
 
 /**
  * strdup -> returns a pointer to a newly allocated space
- * @str: string
+ * @str: string to be dupliated
  * Return: a string pointer
  */
 char *_strdup(char *str)
