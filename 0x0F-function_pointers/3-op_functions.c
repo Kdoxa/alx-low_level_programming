@@ -1,8 +1,7 @@
-
 #include "3-calc.h"
 
 /**
- * op_add - add two numbers
+ * op_add -> add two numbers
  * @a: first
  * @b: second
  *
@@ -14,7 +13,7 @@ int op_add(int a, int b)
 }
 
 /**
- * op_sub - substract two numbers
+ * op_sub -> substract two numbers
  * @a: first
  * @b: second
  *
