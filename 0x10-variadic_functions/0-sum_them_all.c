@@ -1,10 +1,10 @@
 #include "variadic_functions.h"
 
 /**
- * um_them_all - returns the sum of all its params.
- * @n: amount of the arg.
+ * sum_them_all - returns the sum of all its parameters.
+ * @n: amount of the arguments.
  *
- * Return: sum of its params.
+ * Return: sum of its parameters.
  */
 int sum_them_all(const unsigned int n, ...)
 {
